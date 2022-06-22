@@ -58,7 +58,7 @@ header {
 /* HERO SECTION STARTS */
 
 .hero {
-    background-image: url("../assests/th.jfif.png");
+    background-image: url("../assests/Downtown-Tampa.jpg.crdownload");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,6 +85,8 @@ header {
     margin-left:10%;
     text-align: left;
     float: left;
+    background-color: aliceblue;
+    padding: 20px;
   }
 
   .about-me img {
@@ -92,6 +94,8 @@ header {
     margin-left: 10px 0;
     text-align: right;
     float: left;
+    background-color: aliceblue;
+    padding: 10px;
   }
 
  /* WORK SECTION */
