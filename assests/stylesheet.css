@@ -111,6 +111,11 @@ header {
       color: black;
     }
 
+    .workcontainer {
+        width: 25%;
+        margin-left: 10px 0;
+      }
+
     .workproject img {
       width: 100%;
       opacity: 0.5;
@@ -159,10 +164,11 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
-  .contact img {
-    width: 4%;
-    margin: 10px 0;
-  }
+    /* FLEX ADDED */
+
+    .flex-row {
+    display: flex;
+    }
