@@ -65,6 +65,8 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 100%;
   }
 
   /* ABOUT ME */
@@ -98,9 +100,80 @@ header {
     padding: 10px;
   }
 
+  img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
  /* WORK SECTION */
 
+  .bigwork {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
 
+  .bigwork-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .bigwork-img img {
+    max-width: 100%;
+  }
+
+  .bigwork-text {
+    flex: 12;
+  }
+
+  .bigwork-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .bigwork h3 {
+    color: black;
+    font-size: 46px;
+    flex: 1 30%;
+    background-color: aliceblue;
+    padding: 20px;
+  }
+  
+  .bigwork-text p {
+    color: black;
+    font-size: 18px;
+  }
+
+
+  .smallwork-img {
+    flex: 1 12%;
+    margin-right: 20px;
+    float: right;
+  }
+
+  .smallwork-img img {
+    max-width: 50%;
+    float: right;
+  }
+
+  .smallwork-text {
+    flex: 12;
+  }
+
+  .smallwork-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 
     /* END WORK SECTION */
 
@@ -116,9 +189,3 @@ header {
     align-items: center;
     justify-content: space-around;
   }
-  
-    /* FLEX ADDED */
-
-    .flex-row {
-    display: flex;
-    }
